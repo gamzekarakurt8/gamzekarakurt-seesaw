@@ -21,7 +21,7 @@ const seesawModule = (function () {
    
     const clickX = event.clientX - rect.left;
 
-    const weight = Math.floor(Math.random() * 10) + 1;
+    const weight = Math.floor(Math.random() * 10) + 1; // Random sayı
 
     const obj = {  
       position: clickX,
